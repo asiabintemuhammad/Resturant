@@ -1,0 +1,117 @@
+
+/*common css*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+/*navbar*/
+
+.cnav-main{
+    padding-top: 40px; 
+}
+.logo{
+   font-size:40px !important;
+}
+
+.cnlink {
+    font-size:16px;
+    margin-left: 15px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.8s ease; 
+    padding-bottom: 5px !important;
+}
+
+.cnlink:hover {
+    color: white;
+    border-bottom: 1px solid white ;
+  }
+/*hero*/
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('../img/banner-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    position: relative; 
+    min-height: 100vh;
+    width: 100%;    
+    margin-top: -100px; 
+    padding-top: 100px; 
+    display: flex;
+    align-items: center;
+}
+.hero-section h1 {
+    font-size: 64px; 
+    padding-bottom: 10px;           
+}
+.herop{
+    max-width: 600px;
+}
+.tracking-widest {
+    letter-spacing: 0.2rem;
+}
+/*story*/
+.story-sec {
+    background-color: #900c0c;
+    /*padding: 80px 0;*/
+    position: relative;
+    z-index: 2;
+}
+
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+
+.cursive-font {
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 45px;
+}
+
+
+.hero-section {
+    min-height: 100vh;
+    margin-bottom: 0;
+}
+.img1{
+    padding: 60px;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.img1:hover {
+    transform: scale(1.1); 
+}
+/* Signatures Section */
+.sig-sec {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('../img/banner2.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    min-height: 50vh;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.sig-title {
+    
+    margin-bottom: 15px;
+}
+
+.sig-para {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 25px;
+}
+.sig-sec .divider {
+    width: 70px;
+    height: 2px;
+    background-color: #900c0c;
+    border: none;
+}
